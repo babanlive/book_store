@@ -1,2 +1,2 @@
-# book_store
-# book_store
+# Django project
+## - book_store -
