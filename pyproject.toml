@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "book-store"
+version = "0.1.0"
+description = "book store"
+authors = ["Mikhail Artemov <babanlive@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+asgiref = "3.8.1"
+django = "4.2.11"
+djangorestframework = "3.15.1"
+psycopg2-binary = "2.9.9"
+sqlparse = "0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
