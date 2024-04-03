@@ -4,7 +4,7 @@ services:
   db:
     restart: always
     container_name: pg_db
-    image: postgres:16.2-alpine
+    image: postgres:15.6-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
